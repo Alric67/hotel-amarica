@@ -1,0 +1,52 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.content {
+    margin: 0 auto;
+    padding: 0 2em;
+    max-width: 1200px;
+    line-height: 1.6em;
+}
+
+.navbar {
+	display: flex;
+	position: relative;
+	height: 103px;
+	background-color: #fff;
+}
+
+.navbar-logo {
+	line-height: 103px;
+}
+
+.navbar-logo img {
+	padding-top: 10px;
+}
+
+.navbar-menu {
+	position: absolute;
+	right: 0;
+}
+.navbar-menu-list {
+	display: flex;
+	line-height: 103px;
+}
+
+.header-cover {
+	display: flex;
+}
+
+.header-cover img {
+	display: block;
+	width: 100%;
+}
+
+.header-cover-left {
+	width: 66%;
+}
+
+.header-cover-right {
+	width: 34%;
+}
