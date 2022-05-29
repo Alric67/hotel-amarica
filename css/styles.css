@@ -6,7 +6,7 @@
 .content {
     margin: 0 auto;
     padding: 0 2em;
-    max-width: 1200px;
+    max-width: 1140px;
     line-height: 1.6em;
 }
 
@@ -32,6 +32,17 @@
 .navbar-menu-list {
 	display: flex;
 	line-height: 103px;
+	list-style: none;
+}
+
+.navbar-menu-list li {
+	padding-left: 33px;
+}
+
+.navbar-menu-list li a {
+	text-decoration: none;
+	color: #0f0f0f;
+	text-transform: uppercase;
 }
 
 .header-cover {
@@ -49,4 +60,12 @@
 
 .header-cover-right {
 	width: 34%;
+}
+
+.header-text {
+	font-size: 48px;
+}
+
+.header-text span {
+	font-size: 72px;
 }
